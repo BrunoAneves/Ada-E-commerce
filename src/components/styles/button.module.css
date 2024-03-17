@@ -1,0 +1,59 @@
+.detailsButton {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.buttonCart {
+    padding: 15px 25px;
+    border: 1px solid #444444;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    right: 90px;
+    position: fixed;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+
+.buttonCart:hover {
+
+    background-color: #444444;
+    color: #ffffff;
+
+}
+
+
+
+
+.button2 {
+    padding: 5px 15px;
+    border: 1px solid #444444;
+    cursor: pointer;
+
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+
+.button {
+
+    text-decoration: none;
+    color: #444444;
+    padding: 15px 25px;
+    border: 1px solid #444444;
+    cursor: pointer;
+
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.button:hover,
+.button2:hover {
+    background-color: #444444;
+    color: #ffffff;
+
+}
